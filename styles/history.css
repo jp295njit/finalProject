@@ -1,0 +1,115 @@
+*{
+    font-family: Bahnschrift;
+}
+.navbar{
+    width: 100%;
+}
+.navbar fixed-top{
+    width: auto;
+}
+
+.nav-item {
+    width: 100%;
+}
+.collapse{
+    width:100%;
+}
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+#nav_menu ul li {
+    float: left;
+}
+
+
+.navbar a {
+    display: block;
+    width: 180px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: rgba(46,139, 87, .75);
+    color: white;
+    font-weight: bold;
+}
+body{
+    background-color: rgba(185, 227, 250,.9);
+
+}
+h1{
+    padding-left: 15px;
+    margin-top: 5%;
+    position: relative;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 2%;
+    max-width: 275px;
+    margin: auto;
+}
+
+img {
+    max-width: 900px;
+    max-height: 900px;
+    padding-right: 2%;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+p{
+    padding: 2vh 2vw;
+
+
+}
+#map{
+    float: right;
+}
+
+#thali{
+    float: left;
+}
+
+#choodi{
+    float: right;
+}
+
+footer p {
+    display: inline;
+}
+#footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;            /* Footer height */
+    text-align: center;
+    padding-top: 5px;
+    border: 3px solid rgba(46,139, 87, .75);
+    background-color: rgba(46,139, 87, .75);
+    color: white;
+    clear: both;
+}
+.d-flex{
+    display: inherit!important;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+
+
+
+
